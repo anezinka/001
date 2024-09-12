@@ -1,0 +1,14 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 250px);
+    grid-template-rows: repeat(6, 50px);
+}
+
+h1 {
+    grid-area: 1 / 2
+
+}
+
+h2 {
+    grid-area: 2 / 2 ;
+}
