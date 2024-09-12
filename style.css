@@ -1,0 +1,17 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 50%);
+    grid-template-rows: repeat(6, 50%);
+}
+
+h1 {
+    grid-area: 1 / 2;
+}
+
+h1:hover {
+    color: green ;
+}
+
+h2 {
+    grid-area: 2 / 2 ;
+}
